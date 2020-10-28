@@ -1,3 +1,14 @@
 1: create a git repository
 >git init .
 
+2. initialise the commit
+>git commit -m "first commit"
+
+3. set the name for my local working terminal
+>git branch -M main
+
+4. set origin remote url
+>git remote add origin https://github.com/deuxmilledix/story_test.git
+
+5. push the files from local computer to remote
+>git push -u origin main
